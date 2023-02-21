@@ -1,0 +1,11 @@
+<template name="article">
+    <div class="card text-white bg-dark mb-4 mr-4" style="max-width: 18rem; min-width: 23.2%;">
+        <div class="card-header">{{data}}</div>
+        <div class="card-body">
+            <h5 class="card-title">{{data.header}}</h5>
+            <p class="card-text">{{data.description}}</p>
+        </div>
+        <div class="card-footer ">{{showTime data.createdAt}}</div>
+    </div>
+
+</template>
